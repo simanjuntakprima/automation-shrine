@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="shrineAutomation" configfailurepolicy="continue">
+	<test name="RegressionBasic" >
+		<classes>
+			 <class name="testcase.ShrineAutomation">
+                 <methods>
+                 <include name="loginWithIncorrectInformationNumber"/>
+                 </methods>
+             </class>
+
+           </classes>
+       </test>
+   </suite>
